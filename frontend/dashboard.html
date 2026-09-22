@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Dashboard</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <nav class="topnav">
+        <span id="welcomeMessage">Welcome Admin</span>
+        <a href="students.html">Manage Students</a>
+        <a href="academic.html">Attendance &amp; Marks</a>
+        <button id="logoutBtn" type="button">Log out</button>
+    </nav>
+
+    <h1>Student Management Dashboard</h1>
+
+    <section class="stats-grid" aria-label="Student statistics">
+        <div class="stat-card"><strong id="totalStudents">0</strong><span>Total Students</span></div>
+        <div class="stat-card"><strong id="activeStudents">0</strong><span>Active Students</span></div>
+        <div class="stat-card"><strong id="totalCourses">0</strong><span>Courses</span></div>
+        <div class="stat-card"><strong id="attendanceRate">0%</strong><span>Attendance Rate</span></div>
+    </section>
+
+    <p>Use the navigation to manage student profiles, attendance, and academic performance.</p>
+
+</div>
+
+<script src="../js/auth.js"></script>
+<script src="../js/dashboard.js"></script>
+
+</body>
+
+</html>
